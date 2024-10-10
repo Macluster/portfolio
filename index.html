@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <nav class="">
+        <div class="logo">
+            <div class="logo-icon">
+                <h3 style="color: white;font-weight: bold;">D</h3>
+            </div>
+            <h3>Portfolio</h3>
+        </div>
+        <div class="menu-div">
+            <button class="toggle">☰</button>
+            <ul >
+
+                <li onclick="onAboutClicked()">About</li>
+                <li onclick="onExpertiesClicked()">Experties</li>
+                <li onclick="onProjectsClicked()">Projects</li>
+                <li onclick="onServicesClicked()">Services</li>
+            </ul>
+            <button onclick="onContactsClicked()">Contact</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section">
+            <div class="about-div" data-aos="zoom-in">
+                <h1 style="margin: 0px;">Hello, I'm</h1>
+                <h1 style="margin: 0px;">Deepak Denny</h1>
+                <p>I am an experienced Android developer based in Kerala, India, dedicated to creating immersive and
+                    visually stunning mobile applications. I focus on writing clean, efficient code while prioritizing
+                    user-centric design to enhance the overall experience.</p>
+                <button>Say Hello!</button>
+                <div class="count-box">
+                    <div>
+
+                        <h3>3Y</h3>
+                        <h5>Experience</h5>
+                    </div>
+                    <div>
+                        <h3>11</h3>
+                        <h5>Android Projects</h5>
+
+                    </div>
+                    <div style="border: 0px;">
+                        <h3>4</h3>
+                        <h5>Web Projects</h5>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="dp-div" data-aos="zoom-in">
+                <img src="./assets/DEEPAK.jpg">
+                <div
+                    >
+                    <svg class="socio-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M100.28 448H7.4V148.9h92.78zm-46.44-330a53.69 53.69 0 1 1 53.69-53.7 53.69 53.69 0 0 1-53.68 53.7zM447.9 448h-92.68V302.4c0-34.7-12.49-58.4-43.64-58.4-23.79 0-37.92 16-44.15 31.4-2.28 5.5-2.85 13.2-2.85 21v151h-92.7s1.25-245.2 0-270.6h92.68v38.4c-0.19 0.3-0.47 0.6-0.66 0.9h0.66v-0.9c12.3-19 34.2-45.8 83.22-45.8 60.82 0 106.36 39.6 106.36 124.7V448z" />
+                    </svg>
+
+                    <a href="https://github.com/Macluster">
+                        <svg class="socio-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0.297c-6.627 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.387 0.6 0.113 0.82-0.26 0.82-0.577 0-0.285-0.011-1.04-0.016-2.04-3.338 0.725-4.042-1.61-4.042-1.61-0.546-1.387-1.333-1.757-1.333-1.757-1.09-0.744 0.083-0.729 0.083-0.729 1.205 0.084 1.838 1.237 1.838 1.237 1.07 1.835 2.809 1.305 3.495 0.998 0.108-0.775 0.418-1.305 0.762-1.605-2.665-0.305-5.467-1.335-5.467-5.93 0-1.31 0.467-2.381 1.235-3.221-0.123-0.303-0.535-1.523 0.117-3.176 0 0 1.008-0.322 3.301 1.23 0.957-0.266 1.983-0.399 3.003-0.404 1.02 0.005 2.047 0.138 3.006 0.404 2.291-1.552 3.297-1.23 3.297-1.23 0.653 1.653 0.241 2.873 0.118 3.176 0.77 0.84 1.233 1.911 1.233 3.221 0 4.609-2.807 5.625-5.479 5.92 0.43 0.371 0.823 1.102 0.823 2.222 0 1.604-0.015 2.896-0.015 3.286 0 0.32 0.216 0.694 0.825 0.576 4.765-1.589 8.2-6.087 8.2-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+
+                  
+
+                    <svg class="socio-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path 
+                            d="M12 2.163c3.204 0 3.584 0.012 4.849 0.07 1.366 0.062 2.633 0.31 3.608 1.285s1.223 2.242 1.285 3.608c0.058 1.265 0.069 1.645 0.069 4.849s-0.012 3.584-0.069 4.849c-0.062 1.366-0.31 2.633-1.285 3.608s-2.242 1.223-3.608 1.285c-1.265 0.058-1.645 0.069-4.849 0.069s-3.584-0.012-4.849-0.069c-1.366-0.062-2.633-0.31-3.608-1.285s-1.223-2.242-1.285-3.608c-0.058-1.265-0.069-1.645-0.069-4.849s0.012-3.584 0.069-4.849c0.062-1.366 0.31-2.633 1.285-3.608s2.242-1.223 3.608-1.285c1.265-0.058 1.645-0.069 4.849-0.069zm0-2.163c-3.259 0-3.67 0.014-4.947 0.072-1.586 0.071-3.005 0.369-4.095 1.459s-1.389 2.509-1.459 4.095c-0.058 1.277-0.072 1.688-0.072 4.947s0.014 3.67 0.072 4.947c0.071 1.586 0.369 3.005 1.459 4.095s2.509 1.389 4.095 1.459c1.277 0.058 1.688 0.072 4.947 0.072s3.67-0.014 4.947-0.072c1.586-0.071 3.005-0.369 4.095-1.459s1.389-2.509 1.459-4.095c0.058-1.277 0.072-1.688 0.072-4.947s-0.014-3.67-0.072-4.947c-0.071-1.586-0.369-3.005-1.459-4.095s-2.509-1.389-4.095-1.459c-1.277-0.058-1.688-0.072-4.947-0.072zm0 5.838c-3.409 0-6.163 2.754-6.163 6.163s2.754 6.163 6.163 6.163 6.163-2.754 6.163-6.163-2.754-6.163-6.163-6.163zm0 10.163c-2.208 0-4-1.792-4-4s1.792-4 4-4 4 1.792 4 4-1.792 4-4 4zm6.406-11.845c-0.796 0-1.44 0.644-1.44 1.44s0.644 1.44 1.44 1.44 1.44-0.644 1.44-1.44-0.644-1.44-1.44-1.44z" />
+                    </svg>
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="experties-section">
+
+            <div class="experties-left" data-aos="zoom-in">
+                <h2>My Experties</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non,
+                    laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,</p>
+            </div>
+
+            <div class="experties-right" data-aos="zoom-in">
+                <div>
+                    <div class="experties-right-item">
+
+                        <img src="https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png" />
+
+
+                        <h4 style="margin-top: 10px;">Flutter Developement</h4>
+                        <p style="margin-top: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus
+                            arcu.</p>
+
+                    </div>
+                    <div class="experties-right-item">
+                        <img src="https://miro.medium.com/v2/resize:fit:371/1*hIPizC2hYSjp7y8TI9SY1w.png " />
+
+
+                        <h4 style="margin-top: 10px;">Android Developement</h4>
+                        <p style="margin-top: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus
+                            arcu.</p>
+
+                    </div>
+                </div>
+                <div style="margin-top: 20px;">
+                    <div class="experties-right-item">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" />
+
+
+                        <h4 style="margin-top: 10px;">React Developement</h4>
+                        <p style="margin-top: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus
+                            arcu.</p>
+
+                    </div>
+                    <div class="experties-right-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" />
+
+
+                        <h4 style="margin-top: 10px;">Node Js Developement</h4>
+                        <p style="margin-top: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus
+                            arcu.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section class="project-section">
+
+            <h2 data-aos="zoom-in">Projects</h2>
+            <p data-aos="zoom-in">These are my personal projects made for my family and out of curiosities.
+                <br /> Some of this are my college projects
+            </p>
+
+            <div class="project-container">
+                <div>
+                    <div class="project-card" data-aos="zoom-in">
+                        <img src="https://rideart.org/wp-content/uploads/2023/02/art-bus-1600x1060.jpeg" />
+
+                        <div>
+                            <h4>Bus Stracker Android App</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet
+                                lacus.</p>
+
+                            <a href="https://github.com/Macluster/bustracker"><button>View</button></a>
+                        </div>
+
+                    </div>
+                    <div class="project-card" data-aos="zoom-in">
+                        <img
+                            src="https://assets-prd.ignimgs.com/2023/04/12/best-free-movie-sites-1681323728136.jpg?width=3840" />
+                        <div>
+                            <h4>Movie Watcher android TV App</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet
+                                lacus.</p>
+                            <a href="https://github.com/Macluster/Streamer"><button>View</button></a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="zoom-in">
+                        <img
+                            src="https://media-cdn.tripadvisor.com/media/photo-s/0d/03/ce/8c/the-mandarin-cake-shop.jpg " />
+
+                        <div>
+                            <h4>Bake House android and web</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet
+                                lacus.</p>
+                            <a href="https://github.com/Macluster/bake_house"><button>View</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="project-card" data-aos="zoom-in">
+                        <img
+                            src="https://www.novabackup.com/hs-fs/hubfs/USA/Images/Blog%20and%20Article%20Images/File-Sync-Not-Backup.jpg?width=672&height=336&name=File-Sync-Not-Backup.jpg " />
+
+                        <div>
+                            <h4>File backuper</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet
+                                lacus.</p>
+                            <a href="https://github.com/Macluster/docs_manager"><button>View</button></a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="zoom-in">
+                        <img
+                            src="https://enterprisersproject.com/sites/default/files/styles/large/public/images/cio_resume.png?itok=6c9g47mI" />
+
+                        <div>
+                            <h4>Cv Creator</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet
+                                lacus.</p>
+                            <a href="https://github.com/Macluster/cv_creator"><button>View</button></a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-aos="zoom-in">
+
+                        <img src="https://spikesite-17132.kxcdn.com/wp-content/uploads/01-2.png" />
+                        <div>
+                            <h4>Messenger App</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet
+                                lacus.</p>
+                            <a
+                                href="https://github.com/Macluster/MessengerChatApp_JetpackCompose"><button>View</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="LWT-section">
+            <h1 data-aos="zoom-in">Do you have any project idea?<br />Lets Discuss</h1>
+            <p data-aos="zoom-in">Lets Make your project idea into reality</p>
+            <button data-aos="zoom-in">Lets work Together<img src="./assets/right-arrow.png" style="margin-left: 15px;"
+                    height="10" width="10" /></button>
+        </section>
+
+        <section class="what-i-do-section">
+
+            <div class="wido-left">
+                <h1 data-aos="zoom-in">What I do?</h1>
+                <p data-aos="zoom-in">As an experienced Android developer based in Kerala, India, I specialize in
+                    creating robust and
+                    engaging mobile applications. My expertise spans native Android development and Flutter, allowing me
+                    to build high-performance apps that deliver seamless user experiences across various devices.
+                    <br /><br />As an experienced Android developer based in Kerala, India, I specialize in creating
+                    robust and engaging mobile applications. My expertise spans native Android development and Flutter,
+                    allowing me to build high-performance apps that deliver seamless user experiences across various
+                    devices.
+                </p>
+            </div>
+            <div class="wido-right">
+                <div class="wido-card" data-aos="zoom-in">
+                    <h5>Android Application Developement</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.
+                    </p>
+                </div>
+                <div class="wido-card" data-aos="zoom-in">
+                    <h5>Web Developement</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.
+                    </p>
+                </div>
+                <div class="wido-card" data-aos="zoom-in">
+                    <h5>Node js</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="contacts-section">
+            <div data-aos="zoom-in">
+                <div class="contact-left">
+                    <h2>Let`s discuss your project</h2>
+                    <p>There are many variations of passages of Lorem Ipsu available. but the majority have suffered
+                        alte.</p>
+                    <div class="contact-card" style="margin-top: 30px;">
+                        <svg class="location" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M2 4a2 2 0 012-2h16a2 2 0 012 2v16a2 2 0 01-2 2H4a2 2 0 01-2-2V4zm18 0H4v2l8 5 8-5V4zm0 4.14l-8 5-8-5V18h16V8.14z"/>
+                          </svg>
+                          
+                        <div>
+                            <p>Email:</p>
+                            <h5>deepakjudejohn@gmail.com</h5>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <svg class="location" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.36 11.36 0 003.58 1.11 1 1 0 01.86 1V20a1 1 0 01-1 1A18 18 0 013 5a1 1 0 011-1h3.17a1 1 0 011 .86 11.36 11.36 0 001.11 3.58 1 1 0 01-.21 1.11l-2.2 2.2z"/>
+                          </svg>
+                          
+                        <div>
+                            <p>Call Me Now:</p>
+                            <h5>+91 8281707449</h5>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <svg class="location" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+                            <circle cx="12" cy="9" r="2.5" />
+                        </svg>
+                        <div>
+                            <p>Address:</p>
+                            <h5>Kochi,India</h5>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <p>There are many variations of passages of Lorem Ipsu available,
+                        but the majority have suffered alte.</p>
+
+                    <input placeholder="Name" />
+                    <input placeholder="Email" />
+                    <input placeholder="Location" />
+                    <input placeholder="Budget" />
+                    <input placeholder="Message" />
+                    <button>Submit</button>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <footer>
+           
+               
+                <ul>
+    
+                    <li onclick="onAboutClicked()">About</li>
+                    <li onclick="onExpertiesClicked()">Experties</li>
+                    <li onclick="onProjectsClicked()">Projects</li>
+                    <li onclick="onServicesClicked()">Services</li>
+                </ul>
+           
+         
+        </footer>
+    </main>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script src="./index.js"></script>
+
+</html>
